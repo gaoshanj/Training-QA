@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>培训 QA Agent</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/wavesurfer.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main>
+    <h1>培训课程 QA Agent</h1>
+    <div class="panel">
+      <textarea id="question" placeholder="输入你的问题"></textarea>
+      <button id="askBtn">提问</button>
+    </div>
+    <div class="panel">
+      <h2>回答</h2>
+      <div id="answer"></div>
+      <button id="playTts" disabled>播放语音</button>
+      <div id="waveform"></div>
+    </div>
+  </main>
+</body>
+</html>
